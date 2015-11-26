@@ -1,0 +1,17 @@
+﻿@import url("small-screen.css");
+@import url("intermediate-screen.css") screen and (min-width: 650px), only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation : landscape), only screen and (min-device-width: 414px) and (max-device-width: 736px) and (orientation : landscape);
+@import url("big-screen.css") screen and (min-width: 800px);
+@import url("max-screen.css") screen and (min-width: 1140px);
+@import url("animations.css");
+@import url("helper.css");
+@import url("print.css") print;
+
+/* 
+line 2 Basic Styles mobile first imported
+line 3 Basic Styles intermediate screen and ipone 5/6imported screen and (device-aspect-ratio: 40/71),
+line 4 Styles for Standard Screens are the same as for non-responsive IE8  
+line 5 Max Screen Width set
+line 6 Animations and transitions 4 all pages 
+line 7 Helper Classes from Boilerplate 
+line 8 Print Styles from Boilerplate 
+*/

@@ -1,0 +1,135 @@
+/* Variables - CI Colors */
+/* Test a Mixing */
+/* Animations and transitions */
+.main article img.movie-still, div.slide img {
+  -o-transition: -o-transform 0.5s, opacity 0.5s;
+  -ms-transition: -ms-transform 0.5s, opacity 0.5s;
+  -webkit-transition: -webkit-transform 0.5s, opacity 0.5s;
+  transition: transform 0.5s, opacity 0.5s;
+  float: left; }
+
+.main article header:hover img.movie-still, div.slide:hover img {
+  -webkit-transform: scale(1.15, 1.15);
+  -ms-transform: scale(1.15, 1.15);
+  -moz-transform: scale(1.15, 1.15);
+  -o-transform: scale(1.15, 1.15);
+  transform: scale(1.15, 1.15); }
+
+.main article header:hover img.movie-still, div.slide:hover img {
+  opacity: 0.3; }
+
+/* Play Movie Buttons */
+img.movie-play-button {
+  -webkit-opacity: 0.5s;
+  -ms-opacity: 0.5s;
+  -moz-opacity: 0.5s;
+  -o-opacity: 0.5s;
+  opacity: 0.5s; }
+
+img.movie-play-button {
+  opacity: 0; }
+
+.main article header:hover img.movie-play-button, slider.div:hover img.movie-play-button {
+  opacity: 1.0; }
+
+/* Video Buttons */
+.csstransitions .videos a.button {
+  -webkit-transition: background-color 0.5s;
+  -ms-transition: background-color 0.5s;
+  -moz-transition: background-color 0.5s;
+  -o-transition: background-color 0.5s;
+  transition: background-color 0.5s; }
+
+.csstransitions .videos a.button {
+  background-color: transparent; }
+
+.csstransitions .videos a.button:hover {
+  background-color: #97694b;
+  color: white; }
+
+/* News Buttons */
+.csstransitions .news a.button {
+  -webkit-transition: background-color 0.5s;
+  -ms-transition: background-color 0.5s;
+  -moz-transition: background-color 0.5s;
+  -o-transition: background-color 0.5s;
+  transition: background-color 0.5s; }
+
+.csstransitions .news a.button {
+  background-color: transparent; }
+
+.csstransitions .news a.button:hover {
+  background-color: #97694b;
+  color: white; }
+
+/* Channel Buttons */
+.csstransitions .channels a.button {
+  -webkit-transition: background-color 0.5s;
+  -ms-transition: background-color 0.5s;
+  -moz-transition: background-color 0.5s;
+  -o-transition: background-color 0.5s;
+  transition: background-color 0.5s; }
+
+.csstransitions .channels a.button {
+  background-color: transparent; }
+
+.csstransitions .channels a.button:hover {
+  background-color: white; }
+
+/* Profile Page */
+.csstransitions .main.profile input[type=submit] {
+  -webkit-transition: background-color 0.5s;
+  -ms-transition: background-color 0.5s;
+  -moz-transition: background-color 0.5s;
+  -o-transition: background-color 0.5s;
+  transition: background-color 0.5s; }
+
+.csstransitions .main.profile input[type=submit] {
+  background-color: white; }
+
+.csstransitions .main.profile input[type=submit]:hover {
+  background-color: #97694b;
+  color: white; }
+
+/* Movie Title Links */
+.csstransitions .videos a.movie-headline {
+  -webkit-transition: color 1s;
+  -ms-transition: color 1s;
+  -moz-transition: color 1s;
+  -o-transition: color 1s;
+  transition: color 1s; }
+
+.csstransitions .videos a.movie-headline:hover {
+  color: #97694b; }
+
+/* Show Sticky Header on Advanced Channel Page */
+.chpg-av div.sticky-header {
+  -webkit-transition: background-color 0.75s;
+  -ms-transition: background-color 0.75s;
+  -moz-transition: background-color 0.75s;
+  -o-transition: background-color 0.75s;
+  transition: background-color 0.75s; }
+
+.chpg-av div.sticky-header.fixed {
+  background-color: #1e2529; }
+
+/*  Hover Scrolltoplink on CHPGAV */
+.chpg-av a.scroll-top-link {
+  -webkit-transition: background-color 0.75s;
+  -ms-transition: background-color 0.75s;
+  -moz-transition: background-color 0.75s;
+  -o-transition: background-color 0.75s;
+  transition: background-color 0.75s; }
+
+.chpg-av a.scroll-top-link {
+  -webkit-transition: color 0.75s;
+  -ms-transition: color 0.75s;
+  -moz-transition: color 0.75s;
+  -o-transition: color 0.75s;
+  transition: color 0.75s; }
+
+.chpg-av a.scroll-top-link:hover {
+  color: white;
+  background-color: black; }
+
+/* EOF */
