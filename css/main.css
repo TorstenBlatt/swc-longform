@@ -2,9 +2,10 @@
 @import url("intermediate-screen.css") screen and (min-width: 650px), only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation : landscape), only screen and (min-device-width: 414px) and (max-device-width: 736px) and (orientation : landscape);
 @import url("big-screen.css") screen and (min-width: 800px);
 @import url("max-screen.css") screen and (min-width: 1140px);
-@import url("animations.css");
 @import url("helper.css");
 @import url("print.css") print;
+@font-face { font-family: 'TheSerifB-W6';url("webfonts/TheSerifB-W6SemiBold_TT.woff") format("woff"); }
+
 
 /* 
 line 2 Basic Styles mobile first imported

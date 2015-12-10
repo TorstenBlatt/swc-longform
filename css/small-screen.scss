@@ -3,7 +3,7 @@ $stone:#303538;
 $elephant:#4E4F52;
 
 $hausschrift:'';
-$fliesstext: Helvetica, Helvetica Neue, Arial, sans-serif;
+$fliesstext: TheSerifB-W6,Constantia,"Lucida Bright",Lucidabright,"Lucida Serif",Lucida,"DejaVu Serif","Bitstream Vera Serif","Liberation Serif",Georgia,serif;
 
 .txt-std-big {font-family:$fliesstext;font-size:1.2em;line-height:1.5em;font-weight: 400;}
 .txt-std-medium {font-family:$fliesstext;font-size:1.05em;line-height:1.3em;font-weight: 400;}
@@ -92,7 +92,7 @@ body {
 .header-container,
 .footer-container,
 .main aside {
-    background: #f16529;
+    
 }
 
 .title {
@@ -168,7 +168,15 @@ nav a:hover {
 gte-intermediate-screen, .gte-xl-screen
 {display:none;}
 
+.main-container {position:relative;width:100%;background-repeat:no-repeat;background-size: cover;background-attachment:scroll;float:left;;}
+.fixed-bg {background-attachment:fixed;}
+.page-01 {background-image:url('../img/ansel-elgort-main-01.jpg');}
+.page-02 .sticky-bg-container {background-image:url('../img/ansel-elgort-main-02.jpg');background-repeat:no-repeat;background-size: cover;}
+.page-03 {background-image:url('../img/ansel-elgort-main-03.jpg');}
 
+.sticky-bg-container {position: absolute; left: 0px; top: 0px; overflow:hidden;}
+.sticky-bg-container.bg-bottom {top:auto;bottom:0px;}
+.fixed {position:fixed;z-index:1;}
 
 
 
@@ -270,6 +278,7 @@ gte-intermediate-screen, .gte-xl-screen
     .wrapper {
         width: 1026px; /* 1140px - 10% for margins */
         margin: 0 auto;
+        padding:0;
     }
 }
 

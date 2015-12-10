@@ -1,135 +1,65 @@
-/* Variables - CI Colors */
-/* Test a Mixing */
-/* Animations and transitions */
-.main article img.movie-still, div.slide img {
-  -o-transition: -o-transform 0.5s, opacity 0.5s;
-  -ms-transition: -ms-transform 0.5s, opacity 0.5s;
-  -webkit-transition: -webkit-transform 0.5s, opacity 0.5s;
-  transition: transform 0.5s, opacity 0.5s;
-  float: left; }
+/*
+Error: Undefined variable: "$copper".
+        on line 40 of X:\Webs auf Phoenix\Kunden\swisscom\css\animations.scss
 
-.main article header:hover img.movie-still, div.slide:hover img {
-  -webkit-transform: scale(1.15, 1.15);
-  -ms-transform: scale(1.15, 1.15);
-  -moz-transform: scale(1.15, 1.15);
-  -o-transform: scale(1.15, 1.15);
-  transform: scale(1.15, 1.15); }
+35: .main article header:hover img.movie-play-button, slider.div:hover img.movie-play-button{opacity:1.0;}
+36: 
+37: /* Video Buttons *\/
+38: .csstransitions .videos a.button {@include vendor-prefix(transition,background-color 0.5s)}
+39: .csstransitions .videos a.button {background-color:transparent;}
+40: .csstransitions .videos a.button:hover{background-color:$copper;color:white;}
+41: 
+42: /* News Buttons *\/
+43: .csstransitions .news a.button {@include vendor-prefix(transition,background-color 0.5s)}
+44: .csstransitions .news a.button {background-color:transparent;}
+45: .csstransitions .news a.button:hover{background-color:$copper;color:white;}
 
-.main article header:hover img.movie-still, div.slide:hover img {
-  opacity: 0.3; }
-
-/* Play Movie Buttons */
-img.movie-play-button {
-  -webkit-opacity: 0.5s;
-  -ms-opacity: 0.5s;
-  -moz-opacity: 0.5s;
-  -o-opacity: 0.5s;
-  opacity: 0.5s; }
-
-img.movie-play-button {
-  opacity: 0; }
-
-.main article header:hover img.movie-play-button, slider.div:hover img.movie-play-button {
-  opacity: 1.0; }
-
-/* Video Buttons */
-.csstransitions .videos a.button {
-  -webkit-transition: background-color 0.5s;
-  -ms-transition: background-color 0.5s;
-  -moz-transition: background-color 0.5s;
-  -o-transition: background-color 0.5s;
-  transition: background-color 0.5s; }
-
-.csstransitions .videos a.button {
-  background-color: transparent; }
-
-.csstransitions .videos a.button:hover {
-  background-color: #97694b;
-  color: white; }
-
-/* News Buttons */
-.csstransitions .news a.button {
-  -webkit-transition: background-color 0.5s;
-  -ms-transition: background-color 0.5s;
-  -moz-transition: background-color 0.5s;
-  -o-transition: background-color 0.5s;
-  transition: background-color 0.5s; }
-
-.csstransitions .news a.button {
-  background-color: transparent; }
-
-.csstransitions .news a.button:hover {
-  background-color: #97694b;
-  color: white; }
-
-/* Channel Buttons */
-.csstransitions .channels a.button {
-  -webkit-transition: background-color 0.5s;
-  -ms-transition: background-color 0.5s;
-  -moz-transition: background-color 0.5s;
-  -o-transition: background-color 0.5s;
-  transition: background-color 0.5s; }
-
-.csstransitions .channels a.button {
-  background-color: transparent; }
-
-.csstransitions .channels a.button:hover {
-  background-color: white; }
-
-/* Profile Page */
-.csstransitions .main.profile input[type=submit] {
-  -webkit-transition: background-color 0.5s;
-  -ms-transition: background-color 0.5s;
-  -moz-transition: background-color 0.5s;
-  -o-transition: background-color 0.5s;
-  transition: background-color 0.5s; }
-
-.csstransitions .main.profile input[type=submit] {
-  background-color: white; }
-
-.csstransitions .main.profile input[type=submit]:hover {
-  background-color: #97694b;
-  color: white; }
-
-/* Movie Title Links */
-.csstransitions .videos a.movie-headline {
-  -webkit-transition: color 1s;
-  -ms-transition: color 1s;
-  -moz-transition: color 1s;
-  -o-transition: color 1s;
-  transition: color 1s; }
-
-.csstransitions .videos a.movie-headline:hover {
-  color: #97694b; }
-
-/* Show Sticky Header on Advanced Channel Page */
-.chpg-av div.sticky-header {
-  -webkit-transition: background-color 0.75s;
-  -ms-transition: background-color 0.75s;
-  -moz-transition: background-color 0.75s;
-  -o-transition: background-color 0.75s;
-  transition: background-color 0.75s; }
-
-.chpg-av div.sticky-header.fixed {
-  background-color: #1e2529; }
-
-/*  Hover Scrolltoplink on CHPGAV */
-.chpg-av a.scroll-top-link {
-  -webkit-transition: background-color 0.75s;
-  -ms-transition: background-color 0.75s;
-  -moz-transition: background-color 0.75s;
-  -o-transition: background-color 0.75s;
-  transition: background-color 0.75s; }
-
-.chpg-av a.scroll-top-link {
-  -webkit-transition: color 0.75s;
-  -ms-transition: color 0.75s;
-  -moz-transition: color 0.75s;
-  -o-transition: color 0.75s;
-  transition: color 0.75s; }
-
-.chpg-av a.scroll-top-link:hover {
-  color: white;
-  background-color: black; }
-
-/* EOF */
+Backtrace:
+X:\Webs auf Phoenix\Kunden\swisscom\css\animations.scss:40
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/script/tree/variable.rb:49:in `_perform'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/script/tree/node.rb:50:in `perform'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:384:in `visit_prop'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/stack.rb:79:in `block in with_base'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/stack.rb:115:in `with_frame'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/stack.rb:79:in `with_base'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:158:in `visit'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:420:in `block (2 levels) in visit_rule'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:420:in `map'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:420:in `block in visit_rule'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:418:in `visit_rule'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/stack.rb:79:in `block in with_base'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/stack.rb:115:in `with_frame'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/stack.rb:79:in `with_base'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:158:in `visit'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/base.rb:52:in `map'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:166:in `visit_children'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:186:in `visit_root'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:157:in `visit'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:8:in `visit'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/root_node.rb:36:in `css_tree'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/engine.rb:368:in `_render_with_sourcemap'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/engine.rb:285:in `render_with_sourcemap'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/exec/sass_scss.rb:396:in `run'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/exec/sass_scss.rb:62:in `process_result'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/exec/base.rb:52:in `parse'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/exec/base.rb:19:in `parse!'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/bin/sass:13:in `<top (required)>'
+C:/Program Files (x86)/Koala/bin/sass:18:in `load'
+C:/Program Files (x86)/Koala/bin/sass:18:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Undefined variable: \"$copper\".\A         on line 40 of X:\Webs auf Phoenix\Kunden\swisscom\css\animations.scss\A \A 35: .main article header:hover img.movie-play-button, slider.div:hover img.movie-play-button{opacity:1.0;}\A 36: \A 37: /* Video Buttons */\A 38: .csstransitions .videos a.button {@include vendor-prefix(transition,background-color 0.5s)}\A 39: .csstransitions .videos a.button {background-color:transparent;}\A 40: .csstransitions .videos a.button:hover{background-color:$copper;color:white;}\A 41: \A 42: /* News Buttons */\A 43: .csstransitions .news a.button {@include vendor-prefix(transition,background-color 0.5s)}\A 44: .csstransitions .news a.button {background-color:transparent;}\A 45: .csstransitions .news a.button:hover{background-color:$copper;color:white;}"; }
