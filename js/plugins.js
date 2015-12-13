@@ -29,8 +29,8 @@
 			        arrows:true,
 			        infinite: true,
 			        speed: 1000,
-			        slidesToShow: 3,
-			        slidesToScroll: 3,
+			        slidesToShow: 5,
+			        slidesToScroll: 5,
 			        autoplay:true,
 			        autoplaySpeed: 2000,
 			        responsive: [

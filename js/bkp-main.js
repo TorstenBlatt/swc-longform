@@ -80,6 +80,26 @@ $(function K7closeSidrAfterClick() {
 
 });
 
+
+$(function() {
+    	function abso() {
+        $('.full-screen').css({
+            width: $(window).width(),
+            height: $(window).height()
+        });       
+		    }
+		    $(window).resize(function() {
+		            startSticky = $(window).height()-stickyHeight;
+            		stopSticky = $('.scrollTextOnSticky').height() - $(window).height();
+					stopSticky += startSticky; 
+		            abso();         
+		    });
+		
+		    abso();
+		
+});
+
+
 $(function K7scrollAdvancedPage() {
 
 		$("a.scroll-top-link").click(function(event){
@@ -92,22 +112,47 @@ $(function K7scrollAdvancedPage() {
 });
 
 
+//* Sticky Bg Container *//
+
+$(window).scroll(function K7headGoesSticky(event) {
+    
+    
+     if ($(window).scrollTop() >= startSticky  && $(window).scrollTop() <= stopSticky) {
+     		 glBgFixed = true;
+             $('.sticky-element').addClass('fixed');
+                                     
+         }
+         else {
+             glBgFixed = false;
+             $('.sticky-element').removeClass('fixed');
+         }
+         
+
+	     if ($(window).scrollTop() >= stopSticky) {
+     		 glBgBottom = true;
+             $('.sticky-element').addClass('bg-bottom');
+                                     
+         }
+         else {
+             glBgBottom = false;
+             $('.sticky-element').removeClass('bg-bottom');
+         }
+
+
+     
+    
+	});
+
+
+
+
 $(document).ready(function() {
-	getWidthAndHeight();
+				
+			stickyHeight = $('div.sticky-bg').position().top; /*20 less for the missing border-bottom of header fixed */
+			startSticky = stickyHeight;
+			stopSticky = $('.scrollTextOnSticky').height() - $(window).height();
+			stopSticky += startSticky; 
+			//alert(stopSticky);
 });
-
-$(window).resize(function() {
-getWidthAndHeight();
-});
-
-function getWidthAndHeight()
-{
-var winWidth = $(window).width();
-var winHeight = $(window).height();
-$('div.full-screen').css({'width': winWidth,'height': winHeight,});
-}
-
-
-
 
 

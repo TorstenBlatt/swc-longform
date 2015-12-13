@@ -148,15 +148,15 @@ gte-intermediate-screen, .gte-xl-screen {
 .fixed-bg {
   background-attachment: fixed; }
 
-.page-01 {
+#section-01 {
   background-image: url("../img/ansel-elgort-main-01.jpg"); }
 
-.page-02 .sticky-bg-container {
+#section-02 .sticky-bg-container {
   background-image: url("../img/ansel-elgort-main-02.jpg");
   background-repeat: no-repeat;
   background-size: cover; }
 
-.page-03 {
+#section-04 {
   background-image: url("../img/ansel-elgort-main-03.jpg"); }
 
 .sticky-bg-container {
@@ -172,6 +172,11 @@ gte-intermediate-screen, .gte-xl-screen {
 .fixed {
   position: fixed;
   z-index: 1; }
+
+.unfixed {
+  position: absolute;
+  top: auto;
+  bottom: 0px; }
 
 /* ==========================================================================
    Media Queries
@@ -226,7 +231,7 @@ gte-intermediate-screen, .gte-xl-screen {
      ============ */
   .main article {
     float: left;
-    width: 57%; }
+    width: 100%; }
 
   .main aside {
     float: right;

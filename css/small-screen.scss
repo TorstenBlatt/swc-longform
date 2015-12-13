@@ -89,11 +89,6 @@ body {
     border-top: 20px solid #e44d26;
 }
 
-.header-container,
-.footer-container,
-.main aside {
-    
-}
 
 .title {
     color: white;
@@ -170,14 +165,14 @@ gte-intermediate-screen, .gte-xl-screen
 
 .main-container {position:relative;width:100%;background-repeat:no-repeat;background-size: cover;background-attachment:scroll;float:left;;}
 .fixed-bg {background-attachment:fixed;}
-.page-01 {background-image:url('../img/ansel-elgort-main-01.jpg');}
-.page-02 .sticky-bg-container {background-image:url('../img/ansel-elgort-main-02.jpg');background-repeat:no-repeat;background-size: cover;}
-.page-03 {background-image:url('../img/ansel-elgort-main-03.jpg');}
+#section-01 {background-image:url('../img/ansel-elgort-main-01.jpg');}
+#section-02 .sticky-bg-container {background-image:url('../img/ansel-elgort-main-02.jpg');background-repeat:no-repeat;background-size: cover;}
+#section-04 {background-image:url('../img/ansel-elgort-main-03.jpg');}
 
 .sticky-bg-container {position: absolute; left: 0px; top: 0px; overflow:hidden;}
 .sticky-bg-container.bg-bottom {top:auto;bottom:0px;}
 .fixed {position:fixed;z-index:1;}
-
+.unfixed {position:absolute;top:auto;bottom:0px; }
 
 
 
@@ -260,7 +255,7 @@ gte-intermediate-screen, .gte-xl-screen
 
     .main article {
         float: left;
-        width: 57%;
+        width: 100%;
     }
 
     .main aside {
