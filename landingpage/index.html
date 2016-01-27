@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>landing page</title>
+    <meta name="description" content="landing">
+    <meta name="author" content="key7">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="css/main.css?v=1.0">
+    <link rel="stylesheet" type="text/css" href="css/slick.css" />
+    <link rel="stylesheet" type="text/css" href="css/slick-theme.css" />
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+    <!--[if lt IE 9]>
+	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+    <!--[if lt IE 9]>
+            <script>
+                document.createElement('video');
+            </script>
+            <![endif]-->
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+</head>
+
+<body>
+
+<video autoplay loop poster="images/begin.jpg" id="bgvid">
+    <source src="images/landingvideo.webm" type="video/webm">
+    <source src="images/landingvideo.mp4" type="video/mp4">
+</video>
+
+<div class="page-wrap">
+
+        <div class="to-main"><a href="#">Zu Bluewin</a></div>
+
+        <div class="intro-text">
+            <p>Hier hat der Intro-Text seinen Platz</p>
+        </div>
+
+        <div class="wrap is-Responsive">
+            <div class="stars">
+                <div class="singlestar">
+                   <a href="#">
+                        <img src="images/carey.png">
+                        <div class="starname">
+                            Carey Mulligan
+                        </div>
+                    </a></div>
+                <div class="singlestar">
+                    <a href="#">
+                        <img src="images/emilia.png">
+                        <div class="starname">
+                            Emilia Clarke
+                        </div>
+                    </a></div>
+                <div class="singlestar">
+                    <a href="#">
+                        <img src="images/jesse.png">
+                        <div class="starname">
+                            Jesse Eisenberg
+                        </div>
+                    </a></div>
+                <div class="singlestar">
+                    <a href="#">
+                        <img src="images/carey.png">
+                        <div class="starname">
+                            Carey Mulligan
+                        </div>
+                    </a></div>
+                <div class="singlestar">
+                    <a href="#">
+                        <img src="images/emilia.png">
+                        <div class="starname">
+                            Emilia Clarke
+                        </div>
+                    </a></div>
+                <div class="singlestar">
+                    <a href="#">
+                        <img src="images/jesse.png">
+                        <div class="starname">
+                            Jesse Eisenberg
+                        </div>
+                    </a></div>
+            </div>
+        </div>
+
+        <div id="minheight"></div>
+
+        <div class="social-icons">
+            <ul>
+                <li><a href="http://twitter.com/"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="http://facebook.com/"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="http://plus.google.com/"><i class="fa fa-google-plus"></i> </a></li>
+                <li><a href="mailto:e-mail@adresse.net"><i class="fa fa-envelope"></i> </a></li>
+            </ul>
+        </div>
+
+</div>
+
+
+    <!-- <script src="js/scripts.js"></script> -->
+    <script src="js/slick.js"></script>
+    <script type="text/javascript">
+    var $carousel = $('.stars');
+
+    function showSliderScreen($widthScreen) {
+        console.log($widthScreen);
+
+        if ($widthScreen <= "1080") {
+            if (!$carousel.hasClass('slick-initialized')) {
+                $carousel.slick({
+                    swipe: true,
+                    infinite: true,
+                    speed: 1000,
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    arrows: true,
+                    prevArrow: '<button type="button" data-role="none" class="slick-prev" aria-label="previous"><img src="images/pfeillinksneuer.svg" class="svg-shadow"></button>',
+                    nextArrow: '<button type="button" data-role="none" class="slick-next" aria-label="next"><img src="images/pfeilrechtsneuer.svg" class="svg-shadow"></button>',
+                    dots: false,
+                    autoplay: true,
+                    adaptiveHeight: true,
+                    mobileFirst: true,
+                    responsive: [{
+                        breakpoint: 900,
+                        settings: {
+                            slidesToShow: 3,
+                            slidesToScroll: 1,
+                            arrows: true,
+                            dots: false,
+                            swipe: true
+                        }
+                    }]
+                });
+            }
+
+        } else {
+            if ($carousel.hasClass('slick-initialized')) {
+                $carousel.slick('unslick');
+            }
+        }
+    }
+
+    var widthScreen = $(window).width();
+    $(window).ready(showSliderScreen(widthScreen)).resize(
+        function() {
+            var widthScreen = $(window).width();
+            showSliderScreen(widthScreen);
+        }
+    );
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,288 @@
+html,
+body,
+div,
+h1,
+p,
+a,
+video {
+  margin: 0;
+  padding: 0;
+}
+
+/* brightcove */
+
+/* .outer {
+    min-width: 100%;
+    display: block;
+    position: relative;
+    margin: 0 auto;
+}
+
+.outer:after {
+    padding-top: 56.25%;
+    display: block;
+    content: '';
+}
+
+.video-js {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+} */
+
+html {
+  height: 100%;
+}
+
+/* page */
+
+.page-wrap {
+  width: 100%;
+  height:auto !important;
+  height:100%;
+  min-height:100%;
+  margin:0px auto -70px;
+  background: rgba(0, 0, 0, 0.4);
+  position:fixed;
+}
+
+/* slick */
+
+.wrap.is-Responsive {
+  width: 80%;
+  /* height: 54%; */
+  min-width: 400px;
+  max-width: 1080px;
+}
+
+.wrap {
+    margin: auto;
+    padding-top: 100px;
+    position: relative;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    text-align: center;
+}
+
+@media (max-width: 1080px) {
+    .wrap {
+        text-align: center;
+        margin-top: 10%;
+        padding-top: 40px;
+    }
+
+    .wrap.is-Responsive {
+        width: 100%;
+        height: 40%;
+        min-width: 200px;
+        max-width: 1080px;
+      }
+}
+
+@media (max-width: 400px) {
+    .wrap {
+        margin-top: 1%;
+        padding-top: 10px;
+    }
+}
+
+/* arrows */
+
+.stars .slick-arrow img {
+  width: 20px;
+}
+
+.svg-shadow {
+  -webkit-filter: drop-shadow( 1px 1px 5px #000 );
+            filter: drop-shadow( 1px 1px 5px #000 );
+}
+
+/* round images */
+
+.slick-slide img {
+	margin: 0 auto;
+}
+
+.stars {
+    display: inline-block;
+}
+
+.stars img {
+    width: 150px;
+}
+
+.singlestar {
+    display: inline-block;
+    padding: 10px;
+    outline-style: none;
+    z-index: 0;
+  }
+
+.singlestar .starname {
+    padding-top: 20px;
+}
+
+.singlestar a {
+    font-family: TheSerifPlainItalic, Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
+    color: #fff;
+    text-decoration: none;
+    font-size: 22px;
+    text-shadow: 2px 2px 5px #000000;
+}
+
+.singlestar a:hover {
+  color: #b0b0b0;
+}
+
+@media (max-width: 1080px) {
+	.stars img {
+		width: 230px;
+	}
+}
+
+@media (max-width: 400px) {
+    .stars img {
+        width: 180px;
+    }
+}
+
+/* bgvideo */
+
+video { display: block; }
+
+video#bgvid {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background: url(../images/begin.jpg) no-repeat;
+    background-size: cover;
+}
+
+@media screen and (max-device-width: 800px) {
+    html {
+         background-image: url(http://out1.de/swisscom/landingpage/images/begin.jpg);
+         -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+         background-size: cover;
+         background-repeat:   no-repeat;
+    }
+    #bgvid {
+        display: none;
+    }
+}
+
+/* intro-text */
+
+.intro-text {
+  font-family: TheSerifPlainItalic, Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
+  font-size: 2em;
+  color: #fff;
+  padding-top: 80px;
+  text-align: center;
+  text-shadow: 2px 2px 5px #000000;
+}
+
+@media (max-width: 400px) {
+  .intro-text {
+      font-size: 1.4em;
+      padding-top: 70px;
+  }
+}
+
+/* link oben links */
+
+.to-main {
+  position: fixed;
+  top: 20px;
+  left: 30px;
+}
+
+.to-main a {
+  font-family: TheSansPlain, Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
+  font-size: 1.3em;
+  text-decoration: none;
+  color: #fff;
+  text-align: left;
+  text-shadow: 2px 2px 5px #000000;
+}
+
+.to-main a:hover {
+  color: #b0b0b0;
+}
+
+@media (max-width: 400px) {
+  .to-main {
+    top: 15px;
+    left: 15px;
+  }
+  .to-main a {
+     font-size: 1.1em;
+  }
+}
+
+/* social icons */
+
+div#minheight {
+height:70px;
+clear:both;
+}
+
+.social-icons {
+position:absolute;
+bottom:0px !important;
+width:100%;
+height:70px;
+margin:0px auto;
+text-align: center;
+}
+
+.social-icons ul {
+  overflow: auto;
+  list-style-type: none;
+  padding-left: 0;
+  margin-top: 0;
+}
+
+.social-icons ul li {
+  list-style-type: none;
+  display: inline-block;
+}
+
+.social-icons ul li a i {
+  color: #fff;
+  width: 40px;
+  height: 40px;
+  font-size: 25px;
+  text-align: center;
+  margin-right: 0px;
+  padding-top: 8%;
+}
+
+.social-icons ul li a i {
+  transition: all 0.2s ease-in-out;
+}
+.social-icons ul li a i:hover {
+  opacity: .7;
+}
+
+@media (max-width: 400px) {
+  .social-icons {
+  padding-top: 50px;
+  }
+}

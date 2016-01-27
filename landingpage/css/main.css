@@ -1,0 +1,7 @@
+@import url("styles.css");
+
+@font-face { font-family: 'TheSerifB6-Semi-Bold';src: url("webfonts/TheSerif-B6SemiBold.woff") format("woff");}
+@font-face { font-family: 'TheSerifB3-Light-Italic';src: url("webfonts/TheSerif-B3LightItalic.woff") format("woff"); }
+@font-face { font-family: 'TheSerifPlain';src: url("webfonts/TheSerif-B5Plain.woff") format("woff"); }
+@font-face { font-family: 'TheSerifPlainItalic';src: url("webfonts/TheSerif-B5PlainItalic.woff") format("woff"); }
+@font-face { font-family: 'TheSansPlain';src: url("webfonts/TheSaB5.woff") format("woff"); }

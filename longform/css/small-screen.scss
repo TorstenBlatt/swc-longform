@@ -1,0 +1,239 @@
+﻿$night:#1E2529;
+$stone:#303538;
+$elephant:#4E4F52;
+
+$hausschrift:TheSerifPlain;
+$fliesstext: TheSerifB6-Semi-Bold,Constantia,"Lucida Bright",Lucidabright,"Lucida Serif",Lucida,"DejaVu Serif","Bitstream Vera Serif","Liberation Serif",Georgia,serif;
+$theSerifLightItalic:TheSerifB3-Light-Italic;
+$theSerifSemiBold:TheSerifB6-Semi-Bold;
+$theSansPlain:TheSansB5;
+
+.txt-std-big {font-family:$fliesstext;font-size:1.2em;line-height:1.5em;font-weight: 400;}
+.txt-std-medium {font-family:$fliesstext;font-size:1.05em;line-height:1.3em;font-weight: 400;}
+.txt-std-small {font-family:$fliesstext;font-size:0.9em;line-height:1.1em;font-weight: 400;}
+
+/*! HTML5 Boilerplate v5.0 | MIT License | http://h5bp.com/ */
+
+html {
+    font-size: 1em;
+    line-height: 100%;
+    font-family:$hausschrift;
+}
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+
+/* ===== Initializr Styles ==================================================
+   Author: Jonathan Verrecchia - verekia.com/initializr/responsive-template
+   ========================================================================== */
+
+body {
+    font-size: 1em;
+    margin:0px;padding:0px;
+    
+}
+
+
+.wrapper {
+	width: 100%;
+	padding: 0;
+	box-sizing: border-box;
+	margin:0;
+}
+
+/* ===================
+    ALL: Orange Theme
+   =================== */
+
+/* ==============
+    MOBILE: Menu
+   ============== */
+
+
+/* ==============
+    MOBILE: Main
+   ============== */
+
+/* ===============
+    ALL: IE Fixes
+   =============== */
+
+.ie7 .title {
+    padding-top: 20px;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+/* Main */
+body.no-scrolling {overflow:hidden;}
+
+.main-container {float:Left;position:relative;width:100%;box-sizing:border-box;background-repeat:no-repeat;background-size: cover;background-attachment:scroll;}
+.wrapper {position:inherit; z-index:2;}
+
+.wrapper article.scrollTextOnSticky {position: inherit;box-sizing: border-box;width: 100%;height: auto;}
+.wrapper article.scrollTextOnSticky.left {background-color: white;float:left;}
+.wrapper article.scrollTextOnSticky.right {background-color: white;float:right;}
+
+/* Overlay */
+#section-overlay, #section-impressum-overlay {display:none;position:fixed;opacity:1;left:0px;top:0px;bottom:0px;z-index:15;}
+#section-impressum-overlay {overflow:auto; }
+#section-impressum-overlay {top:auto;bottom:0px;}
+
+#section-overlay:after, #section-impressum-overlay:after {content:'';position:absolute;left:0;top:0;right:0;bottom:0;background-color:black;opacity:0.875;}
+#section-impressum-overlay:after {background-color:white;opacity:0.975;}
+#section-overlay div.main {position:relative; }
+
+/* Padding Fließtext nur mobile */
+article.scrollTextOnSticky.left,
+article.scrollTextOnSticky.right,
+article.interview,
+.main-container.small-screen-only,
+article.portrait.left,
+aside.interview.left,
+div.impressum-overlay-container
+{padding:10px 20px; }
+
+/*  Sticky Navigation */
+nav.sticky-navigation {}
+
+/* Detail  */
+#section-01 {background-image:url('../img/ansel-elgort-main-01-ssd.jpg');}
+#section-02 .sticky-bg-container {background-image: url("../img/ansel-elgort-main-02-ssd.jpg");background-repeat: no-repeat;background-size: cover;background-position:center;}
+#section-04 .sticky-bg-container {background-image:url('../img/ansel-elgort-main-03-ssd.jpg');background-repeat:no-repeat;background-size: cover;background-position:center;}
+.sticky-bg-container {position: relative;float: left; }
+
+#section-05 {background-image:url('../img/ansel-elgort-main-04-ssd.jpg');}
+#section-07 {background-image:url('../img/ansel-elgort-main-06-ssd.jpg');background-position:center;}
+#section-10 {background-color: #d6d6d6;padding-bottom:30px;}
+#section-11 {background-color: #000;}
+#section-12 {background-color: #d6d6d6;padding-bottom:30px;}
+
+/* Show Pictures in mobile */
+#section-02 .sticky-bg-container,
+#section-04 .sticky-bg-container, 
+#section-05.main-container,
+#section-07
+{padding:0 10px 30px 10px;background-clip:content-box;box-sizing:border-box;}
+
+
+
+div.full-screen {margin-bottom:30px;}
+div#section-07, div#section-09, div#section-02 div.full-screen {margin-bottom:0;} /*Ausnahmen von der Regel */
+
+div.footer-container footer div {width:100%;text-align:center;}
+
+
+/* main Page (top) */ 
+div.wrapper.fullheight {position:relative;}
+div.main-page h1, div.main-page h2, div.arrow-down, div.text-scroll-down {position:absolute;}
+div.main-page h1 {top:14%;left:40px;}
+div.main-page h2 {top:15%;left:40px;}
+div.arrow-down, div.text-scroll-down {bottom:20px;}
+div.arrow-down {background-image:url('../img/arrow-down.png');background-repeat:no-repeat;background-size:cover;width:10px;height:81px;left:0px;}
+div.text-scroll-down {width: auto;height: auto;left:15px;padding-bottom:60px;}
+
+/* Structure Article, Interview and Portrait */
+div.text-on-image {position:relative;left:0px;margin-top:25%;}
+.main.portrait {padding-top:40px;}
+.main.weitere-stars {padding-top:50px;}
+
+article.interview { }
+article.portrait.left {}
+article.interview.right {}
+article.interview.left {}
+
+article.interview section, article.portrait section {padding:0 0 10px 0;}
+article.interview div.movie-still {}
+article.interview div.movie-still footer {padding:10px 0 40px 0;}
+article.interview div.movie-still img {}
+
+aside.interview, aside.portrait {padding:0 0;box-sizing:border-box;}
+aside.interview.left {background-color: #e8e8e8;}
+aside.portrait.right {}
+article.social-links {width:100%;position:relative; }
+article.social-links section {width:90%;margin-left:12.5%;position:relative;}
+article.social-links section a {margin-left:0.75vw; }
+
+aside.interview.left article {box-sizing: border-box;padding: 10px;width: 50%;float: left;}
+aside.left article section {max-width:135px;color:#595959;}
+aside.interview.left article:nth-of-type(even) {}
+
+article.portrait, .center {text-align:center;}
+aside.portrait header, article.portrait header {padding-bottom:40px;border-bottom:3px solid black;border-bottom-style:double;margin-bottom:20px;}
+aside.portrait article.social-links header {padding:0;border:0;}
+article.scrollTextOnSticky header {padding-bottom:30px;text-align:center;font-weight:normal;}
+article.portrait section {padding-top:40px;border-bottom:3px solid black;border-bottom-style:double;}
+
+/* Footer */
+.footer-container footer {display:block;width:100%;padding:20px 0;}
+div.wrapper.impressum-overlay-container {position:relative;}
+
+/* Sliders */
+.homepage-fullscreen-slider img {width:100%;height:auto;}
+.homepage-fullscreen-slider  {background-color:black;}
+.homepage-second-content-slider,  .overlay-slider {position:relative;margin:auto;width:100%;padding-bottom:0px;margin-bottom:90px;padding-top:30px;min-width:300px;}
+.homepage-second-content-slider article {}
+.homepage-second-content-slider article header img, .overlay-slider article header img  {position:relative;width:auto;margin:auto;}
+.homepage-second-content-slider article section, .overlay-slider article section  {color:white;text-align:center;}
+
+.ssd-slider .slick-slide header img {width:100%;height:auto; }
+.ssd-slider .slick-track {background-color:black;padding-top:50px;}
+.ssd-slider .slick-slide section {color:white;padding:20px;box-sizing:border-box;}
+.ssd-slider .slick-slide section span {display:block;float:left;width:40px;height:40px; }
+
+/* */
+
+.homepage-first-content-slider .slick-slide img {width:100%;height:auto;vertical-align:middle;}
+.homepage-first-content-slider .slick-slide, .homepage-fullscreen-slider .slick-track {overflow:hidden;height:100%;}
+.homepage-first-content-slider .slick-track {background-color:black;padding-top:80px;}
+.homepage-first-content-slider div.caption, .homepage-fullscreen-slider div.caption {color:white;padding:20px;box-sizing:border-box;}
+.homepage-first-content-slider div.caption  span, .homepage-fullscreen-slider div.caption span {display:block;float:left;width:40px;height:60px; }
+
+.homepage-fullscreen-slider .slick-track {background-color:black;padding:60px 0px 60px 0px;}
+
+/* Heading - find responsive features in font-size-mixin */ 
+h1 {font-family:$theSerifSemiBold;width: auto;height: auto;text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);color: white;}
+h2.header-on-image {position:relative;bottom:20px;color:white;}
+.main .scrollTextOnSticky h1 {text-shadow:none;color:black;}
+div.impressum-overlay-container h1 {text-shadow:none;color: black;}
+div.weitere-stars h1 {width:100%;text-align:center; }
+
+/* Text style for "“Ich kann mit" */
+/*  Fonts */
+
+/*  Links */
+a {text-decoration:none;}
+a:hover {text-decoration:underline; }
+.overlay-slider article:hover section a {text-decoration:underline; }
+article.social-links section a {display:block;float:left;margin-right:4px;border:0px solid green;}
+.overlay-link {position:absolute;top:20px;right:10px;color:white;z-index:3;}
+.overlay-link.overview {right:auto;left:10px;}
+.overlay-link.close-overlay {z-index:inherit;}
+.footer-container footer a {display:block;width:100%;}
+div.weitere-stars a {color:white;}
+
+
+
+/*  IMGs */
+article img, section img {}
+aside.interview img {max-width:100%;height:auto;}
+img.image-portrait {width:90%;height:auto; }
+
+/* Helper  */
+.gte-intermediate-screen, .gte-xl-screen
+{display:none;}
+.small-screen-only, .slick-slide img.small-screen-only
+{display:block;}
+
+
+
+
+
+/* EOF*/

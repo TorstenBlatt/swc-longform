@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="28px" height="46px" viewBox="0 0 28 46" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.4.4 (17249) - http://www.bohemiancoding.com/sketch -->
+    <title>Oval 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.35 0" in="shadowBlurOuter1" type="matrix" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="All" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="728_Landingpage_V1" sketch:type="MSArtboardGroup" transform="translate(-723.000000, -232.000000)" filter="url(#filter-1)" fill="#FFFFFF">
+            <path d="M728.512,272.272727 C728.512,272.272727 725.11,269.130909 728.512,265.792727 C731.914,262.454545 741.364,252.636364 741.364,252.636364 C741.364,252.636364 731.914,242.818182 728.512,239.48 C725.11,236.141818 728.512,233 728.512,233 L747.79,252.636364 L728.512,272.272727 Z" id="Oval-2" sketch:type="MSShapeGroup"></path>
+        </g>
+    </g>
+</svg>
