@@ -1,0 +1,149 @@
+﻿/* BG Effect intermediate and bigger only */
+#section-01 {background-image:url('../img/ansel-elgort-main-01.jpg');}
+#section-02 .sticky-bg-container {background-image: url("../img/ansel-elgort-main-02.jpg");}
+#section-04 .sticky-bg-container {background-image: url("../img/ansel-elgort-main-03.jpg");}
+#section-05 {background-image:url('../img/ansel-elgort-main-04.jpg');}
+#section-07 {background-image:url('../img/ansel-elgort-main-06.jpg');}
+
+
+/* Reset Picture settings from mobile */
+#section-02 .sticky-bg-container,
+#section-04 .sticky-bg-container, 
+#section-05.main-container,
+#section-07  
+{padding:0;}
+
+
+div.footer-container footer div {width:50%;float:left; }
+div.footer-container footer div.left {text-align:left; }
+div.footer-container footer div.right {text-align:right; }
+
+
+div.full-screen {margin-bottom:0;}
+
+.sticky-bg-container {position: absolute; left: 0px; top: 0px; overflow:hidden;float:none;background-size: cover;background-position:left;}
+.sticky-bg-container.bg-bottom {top:auto;bottom:0px;}
+.fixed {position:fixed;z-index:1;}
+.unfixed {position:absolute;top:auto;bottom:0px; }
+
+.wrapper {
+    width: 90%;
+    margin: 0 5%;
+}
+
+/* Details */
+.fixed-bg {background-attachment:fixed;}
+
+/* Padding Fließtext nur mobile */
+article.scrollTextOnSticky.left,
+article.scrollTextOnSticky.right,
+article.interview,
+aside.interview.right,
+article.portrait.left,
+aside.interview.left,
+div.impressum-overlay-container
+{padding:0; }
+
+
+/* Main Page */
+.main-container {float:left; }
+div.main-page h1, div.main-page h2, div.arrow-down, div.text-scroll-down {position:absolute;}
+div.main-page h1, div.main-page h2 {top:12%;left:0px;}
+div.arrow-down, div.text-scroll-down {bottom:6%;}
+div.arrow-down {background-image:url('../img/arrow-down.png');background-repeat:no-repeat;background-size:cover;width:10px;height:81px;left:0px;}
+div.text-scroll-down {width: auto;height: auto;left:15px;padding-bottom:6%;}
+
+
+/*  Sticky Navigation */
+nav.sticky-navigation {right:-250px;top:50%;width:auto;z-index:3;position:fixed;}
+nav.sticky-navigation ul {text-align:left;list-style-type:none;box-sizing:border-box;}
+nav.sticky-navigation.nav-in ul {text-align:right;}
+nav.sticky-navigation.text-align ul {text-align:right;}
+nav.sticky-navigation ul li {margin:0px;border:0px;line-height:40px;}
+nav.sticky-navigation ul li a {background-color: #e8e8e8;}
+nav.sticky-navigation ul li a.active-link {background-color: #945150;color:white;}
+nav.sticky-navigation ul li a, 
+nav.sticky-navigation ul li a:visited {text-decoration:none;width:auto;box-sizing:content-box;padding:5px 20px 5px 23px;color:#111111;text-shadow: 0 3px 12px rgba(0, 0, 0, 0.5);}
+nav.sticky-navigation ul li a:hover {text-decoration:underline;}
+
+
+/*
+nav.sticky-navigation ul li:nth-child(1) a {background-color: #945150;}
+nav.sticky-navigation ul li:nth-child(2) a {background-color: #e8e8e8; }
+nav.sticky-navigation ul li:nth-child(3) a {background-color: #cecece; }
+*/
+
+/* Sticky Text */
+.wrapper article.scrollTextOnSticky {width: 40%; padding: 20px;}
+.wrapper article.scrollTextOnSticky.right {background-color: black;float:right;color:white;background-color: rgba(0, 0, 0, 0.8);}
+.wrapper article.scrollTextOnSticky.left {background-color: rgba(255, 255, 255, 0.7);}
+
+
+/* Articles and Portrait */
+.main.interview, .main.portrait {padding-top:80px;}
+article.interview, article.portrait {width:55%;}
+article.interview.right {float:right;}
+article.interview.left, article.portrait.left {float:left;}
+
+article.interview section, article.portrait section {padding:0 0 20px 0;}
+aside.interview, aside.portrait {width:40%;padding:20px 0;box-sizing:border-box;}
+aside.interview.left {float:left;background-color:white;}
+
+
+aside.interview.right {float:right;opacity:0;} /* Opacity is beeing animated */
+aside.interview.right section {color:#666;padding-bottom:20px;}
+aside.portrait.right {float:right;}
+
+aside.interview.left article {width:50%;float:left;box-sizing:border-box;padding:10px; }
+aside.interview.left article:nth-of-type(even) {margin-top:100px; }
+
+/*
+aside.portrait header, article.portrait header, article.scrollTextOnSticky header {padding-bottom:60px;border-bottom:3px solid black;border-bottom-style:double;margin-bottom:20px;}
+*/
+
+aside.portrait header, article.portrait header, article.scrollTextOnSticky header { border-bottom: 3px double black; margin-bottom: 20px; padding-bottom: 25px; padding-top: 20px;}
+
+div.text-on-image {margin-top:5%;}
+
+/* Slider */
+.overlay-slider {padding-bottom:0px;}
+.homepage-first-content-slider div.slick-slide, .homepage-fullscreen-slider .slick-slide {position:relative; }
+.homepage-first-content-slider div.slick-slide div.caption {position:absolute;box-sizing:border-box;left:auto;bottom:6px;z-index:3;padding-right:20px;width:100%;height:80px;background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%);background-position:6px bottom;background-repeat:no-repeat;}
+.homepage-first-content-slider div.slick-track {background-color:white; }
+.homepage-first-content-slider div.slick-slide div.caption span {display:block;float:right;width:40px;height:40px; }
+.homepage-first-content-slider div.slick-track, .homepage-fullscreen-slider .slick-track {padding:0px; }
+.homepage-first-content-slider div.slick-slide img {border:6px solid white;border-right:none;}
+.homepage-fullscreen-slider div.slick-slide div.caption {position:absolute;left:auto;bottom:0px;z-index:3;padding-left:5%;width:100%;background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%);}
+.homepage-fullscreen-slider div.caption span {display:none;}
+.homepage-fullscreen-slider div.caption {text-align:left;width:auto;}
+.homepage-fullscreen-slider div.caption img {width:auto;height:auto;}
+
+.slick-next {right:5%;}
+.slick-prev {left:5%;}
+
+div.weitere-stars .slick-next {right:2.5%;}
+div.weitere-stars .slick-prev {left:2.5%;}
+
+
+/* Headings */
+
+div.text-on-image h1 {width: 596px;line-height: 40px;}
+div.text-on-image h2 {padding-left:0px;}
+article.interview h1 {padding:0 50px; }
+
+/*  IMGs */
+article img, section img {}
+img.image-portrait {width:100%;height:auto; }
+aside.interview.right img {min-width:300px; }
+
+
+/* Links */
+.overlay-link {position:absolute;top:30px;right:60px;color:white;z-index:3;}
+.overlay-link.overview {right:auto;left:60px;}
+
+
+
+/* Show/ Change Element starting with intermediate  */
+.gte-intermediate-screen {display: block;}
+.homepage-fullscreen-slider a.gte-intermediate-screen {display:inline;width:auto;height:auto;}
+.small-screen-only, .slick-slide img.small-screen-only  {display:none;}
