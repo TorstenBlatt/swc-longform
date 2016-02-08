@@ -104,16 +104,37 @@ div.impressum-overlay-container
 nav.sticky-navigation {}
 
 /* Detail  */
-#section-01 {background-image:url('../img/ansel-elgort-main-01-ssd.jpg');}
-#section-02 .sticky-bg-container {background-image: url("../img/ansel-elgort-main-02-ssd.jpg");background-repeat: no-repeat;background-size: cover;background-position:center;}
-#section-04 .sticky-bg-container {background-image:url('../img/ansel-elgort-main-03-ssd.jpg');background-repeat:no-repeat;background-size: cover;background-position:center;}
+#section-02 .sticky-bg-container {background-repeat: no-repeat;background-size: cover;background-position:center;}
+#section-04 .sticky-bg-container {background-repeat:no-repeat;background-size: cover;background-position:center;}
 .sticky-bg-container {position: relative;float: left; }
 
-#section-05 {background-image:url('../img/ansel-elgort-main-04-ssd.jpg');}
-#section-07 {background-image:url('../img/ansel-elgort-main-06-ssd.jpg');background-position:center;}
+#section-07 {background-position:center;}
 #section-10 {background-color: #d6d6d6;padding-bottom:30px;}
 #section-11 {background-color: #000;}
 #section-12 {background-color: #d6d6d6;padding-bottom:30px;}
+
+/* Main Background Images  */
+
+body#star-01 #section-01 {background-image:url('../images-star-01/ansel-elgort-main-01-ssd.jpg');}
+body#star-01 #section-02 .sticky-bg-container {background-image: url("../images-star-01/ansel-elgort-main-02-ssd.jpg");}
+body#star-01 #section-04 .sticky-bg-container {background-image:url('../images-star-01/ansel-elgort-main-03-ssd.jpg');}
+body#star-01 #section-05 {background-image:url('../images-star-01/ansel-elgort-main-04-ssd.jpg');}
+body#star-01 #section-07 {background-image:url('../images-star-01/ansel-elgort-main-06-ssd.jpg');}
+
+body#star-02 #section-01 {background-image:url('../images-star-02/ansel-elgort-main-01-ssd.jpg');}
+body#star-02 #section-02 .sticky-bg-container {background-image: url("../images-star-02/ansel-elgort-main-02-ssd.jpg");}
+body#star-02 #section-04 .sticky-bg-container {background-image:url('../images-star-02/ansel-elgort-main-03-ssd.jpg');}
+body#star-02 #section-05 {background-image:url('../images-star-02/ansel-elgort-main-04-ssd.jpg');}
+body#star-02 #section-07 {background-image:url('../images-star-02/ansel-elgort-main-06-ssd.jpg');}
+
+body#star-03 #section-01 {background-image:url('../images-star-03/ansel-elgort-main-01-ssd.jpg');}
+body#star-03 #section-02 .sticky-bg-container {background-image: url("../images-star-03/ansel-elgort-main-02-ssd.jpg");}
+body#star-03 #section-04 .sticky-bg-container {background-image:url('../images-star-03/ansel-elgort-main-03-ssd.jpg');}
+body#star-03 #section-05 {background-image:url('../images-star-03/ansel-elgort-main-04-ssd.jpg');}
+body#star-03 #section-07 {background-image:url('../images-star-03/ansel-elgort-main-06-ssd.jpg');}
+
+
+
 
 /* Show Pictures in mobile */
 #section-02 .sticky-bg-container,
@@ -169,7 +190,7 @@ article.portrait, .center {text-align:center;}
 aside.portrait header, article.portrait header {padding-bottom:40px;border-bottom:3px solid black;border-bottom-style:double;margin-bottom:20px;}
 aside.portrait article.social-links header {padding:0;border:0;}
 article.scrollTextOnSticky header {padding-bottom:30px;text-align:center;font-weight:normal;}
-article.portrait section {padding-top:40px;border-bottom:3px solid black;border-bottom-style:double;}
+depreciated.article.portrait section {padding-top:40px;border-bottom:3px solid black;border-bottom-style:double;}
 
 /* Footer */
 .footer-container footer {display:block;width:100%;padding:20px 0;}

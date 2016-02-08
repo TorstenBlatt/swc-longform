@@ -1,9 +1,22 @@
 ﻿/* BG Effect intermediate and bigger only */
-#section-01 {background-image:url('../img/ansel-elgort-main-01.jpg');}
-#section-02 .sticky-bg-container {background-image: url("../img/ansel-elgort-main-02.jpg");}
-#section-04 .sticky-bg-container {background-image: url("../img/ansel-elgort-main-03.jpg");}
-#section-05 {background-image:url('../img/ansel-elgort-main-04.jpg');}
-#section-07 {background-image:url('../img/ansel-elgort-main-06.jpg');}
+body#star-01 #section-01 {background-image:url('../images-star-01/ansel-elgort-main-01.jpg');}
+body#star-01 #section-02 .sticky-bg-container {background-image: url("../images-star-01/ansel-elgort-main-02.jpg");}
+body#star-01 #section-04 .sticky-bg-container {background-image: url("../images-star-01/ansel-elgort-main-03.jpg");}
+body#star-01 #section-05 {background-image:url('../images-star-01/ansel-elgort-main-04.jpg');}
+body#star-01 #section-07 {background-image:url('../images-star-01/ansel-elgort-main-06.jpg');}
+
+body#star-02 #section-01 {background-image:url('../images-star-02/ansel-elgort-main-01.jpg');}
+body#star-02 #section-02 .sticky-bg-container {background-image: url("../images-star-02/ansel-elgort-main-02.jpg");}
+body#star-02 #section-04 .sticky-bg-container {background-image: url("../images-star-02/ansel-elgort-main-03.jpg");}
+body#star-02 #section-05 {background-image:url('../images-star-02/ansel-elgort-main-04.jpg');}
+body#star-02 #section-07 {background-image:url('../images-star-02/ansel-elgort-main-06.jpg');}
+
+body#star-03 #section-01 {background-image:url('../images-star-03/ansel-elgort-main-01.jpg');}
+body#star-03 #section-02 .sticky-bg-container {background-image: url("../images-star-03/ansel-elgort-main-02.jpg");}
+body#star-03 #section-04 .sticky-bg-container {background-image: url("../images-star-03/ansel-elgort-main-03.jpg");}
+body#star-03 #section-05 {background-image:url('../images-star-03/ansel-elgort-main-04.jpg');}
+body#star-03 #section-07 {background-image:url('../images-star-03/ansel-elgort-main-06.jpg');}
+
 
 
 /* Reset Picture settings from mobile */
@@ -20,6 +33,7 @@ div.footer-container footer div.right {text-align:right; }
 
 
 div.full-screen {margin-bottom:0;}
+div.half-full-screen {min-height:400px;}
 
 .sticky-bg-container {position: absolute; left: 0px; top: 0px; overflow:hidden;float:none;background-size: cover;background-position:left;}
 .sticky-bg-container.bg-bottom {top:auto;bottom:0px;}
