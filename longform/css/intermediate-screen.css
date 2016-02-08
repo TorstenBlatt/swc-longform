@@ -33,7 +33,6 @@ div.footer-container footer div.right {text-align:right; }
 
 
 div.full-screen {margin-bottom:0;}
-div.half-full-screen {min-height:400px;}
 
 .sticky-bg-container {position: absolute; left: 0px; top: 0px; overflow:hidden;float:none;background-size: cover;background-position:left;}
 .sticky-bg-container.bg-bottom {top:auto;bottom:0px;}
