@@ -45,6 +45,8 @@ else
 	K7SlickSSD();
 	};
 
+if(winHalfHeight<=400){winHalfHeight=400};
+
 $('.no-ssd div.half-full-screen').css({'width': winWidth,'height': winHalfHeight,});
 
 }
