@@ -175,7 +175,7 @@ video#bgvid {
 
 @media screen and (max-device-width: 800px) {
     html {
-         background-image: url(http://out1.de/swisscom/landingpage/images/begin.jpg);
+         background-image: url("../images/begin.jpg");
          -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
