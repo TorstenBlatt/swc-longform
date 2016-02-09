@@ -130,13 +130,10 @@
   article.portrait strong, article.portrait b {
     font-family: TheSansPlain; }
 
-  aside.portrait header, article.portrait header, article.scrollTextOnSticky header {
+  aside.portrait header, article.portrait header, article.scrollTextOnSticky header, article.interview header {
     font-family: TheSerifPlain;
     font-size: 30px;
     line-height: 36px; }
-
-  article.portrait header {
-    font-family: TheSerifPlainItalic; }
 
   aside.portrait article.social-links header {
     font-size: 20px;
@@ -202,7 +199,7 @@
     font-size: 20px;
     line-height: 30px; }
 
-  article.portrait header, article.scrollTextOnSticky header {
+  article.portrait header, article.scrollTextOnSticky header, article.interview header {
     font-size: 36px;
     line-height: 40px; }
 

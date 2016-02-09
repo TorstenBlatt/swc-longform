@@ -314,7 +314,7 @@ aside.left article section {
 article.portrait, .center {
   text-align: center; }
 
-aside.portrait header, article.portrait header {
+aside.portrait header, article.portrait header, article.interview header {
   padding-bottom: 40px;
   border-bottom: 3px solid black;
   border-bottom-style: double;
