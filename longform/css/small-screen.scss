@@ -187,7 +187,7 @@ aside.left article section {max-width:135px;color:#595959;}
 aside.interview.left article:nth-of-type(even) {}
 
 article.portrait, .center {text-align:center;}
-aside.portrait header, article.portrait header {padding-bottom:40px;border-bottom:3px solid black;border-bottom-style:double;margin-bottom:20px;}
+aside.portrait header, article.portrait header, article.interview header {padding-bottom:40px;border-bottom:3px solid black;border-bottom-style:double;margin-bottom:20px;}
 aside.portrait article.social-links header {padding:0;border:0;}
 article.scrollTextOnSticky header {padding-bottom:30px;text-align:center;font-weight:normal;}
 depreciated.article.portrait section {padding-top:40px;border-bottom:3px solid black;border-bottom-style:double;}

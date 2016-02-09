@@ -60,8 +60,7 @@ section.question {font-family:$theSerifSemiBold;color: #015;}
 article.scrollTextOnSticky header {color: #015;}
 article.portrait {font-family:$theSerifPlain;font-size:$mainFontSize*2;line-height: $mainFontSize*3;}
 article.portrait strong, article.portrait b {font-family:$theSansPlain;}
-aside.portrait header, article.portrait header, article.scrollTextOnSticky header {font-family:$theSerifPlain;font-size: $mainFontSize*3;line-height:$mainFontSize*3.6;}
-article.portrait header {font-family:$theSerifPlainItalic;} 
+aside.portrait header, article.portrait header, article.scrollTextOnSticky header, article.interview header {font-family:$theSerifPlain;font-size: $mainFontSize*3;line-height:$mainFontSize*3.6;}
 aside.portrait article.social-links header {font-size:$mainFontSize*2;font-family: $theSansPlain;line-height: $mainFontSize*3.2;font-weight:600;}
 .overlay-link {font-family:$theSansPlain;font-size:$mainFontSize*1.8;}
 .footer-container footer a {font-family:$theSansPlain;font-size: $mainFontSize*1.8;line-height:$mainFontSize*2.2;color:#595959;}
@@ -96,7 +95,7 @@ div.weitere-stars h1 {font-size: $mainFontSize*3.6;line-height:$mainFontSize*4;}
 h2.main-page {font-size:$mainFontSize*8.5;line-height: $mainFontSize*5;}
 div.impressum-overlay-container h1 {text-align:left;}
 article.interview, article.portrait, article.scrollTextOnSticky  {font-size: $mainFontSize*2;line-height: $mainFontSize*3;}
-article.portrait header, article.scrollTextOnSticky header {font-size: $mainFontSize*3.6;line-height:$mainFontSize*4;}
+article.portrait header, article.scrollTextOnSticky header, , article.interview header {font-size: $mainFontSize*3.6;line-height:$mainFontSize*4;}
 .homepage-fullscreen-slider div.slick-slide div.caption {font-size: $mainFontSize*3.6;line-height: $mainFontSize*4.8;}
 .overlay-link {font-size: $mainFontSize*2.2;}
 .impressum-overlay-content {font-family:$theSansPlain;font-size: $mainFontSize*1.8;line-height:$mainFontSize*3.2;}
