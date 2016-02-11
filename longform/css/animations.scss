@@ -20,8 +20,8 @@
 .not-used.sticky-navigation {animation-name:slideNavIn;animation-duration:1000ms;animation-fill-mode:both;}
 
 .sticky-navigation {transition: transform ease-in-out 0.2s;-webkit-transition: -webkit-transform ease-in-out 0.5s;}
-.sticky-navigation.nav-in {transform: translate(-250px);-webkit-transform: translate(-250px);}      
-.sticky-navigation:hover {transform: translate(-250px);-webkit-transform: translate(-250px);}  
+.sticky-navigation.nav-in {transform: translate(-140px);-webkit-transform: translate(-140px);}      
+.sticky-navigation:hover {transform: translate(-140px);-webkit-transform: translate(-140px);}  
 .sticky-navigation:hover ul {text-align:right;}
 
 /* Transitions */

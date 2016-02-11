@@ -22,12 +22,12 @@
   -webkit-transition: -webkit-transform ease-in-out 0.5s; }
 
 .sticky-navigation.nav-in {
-  transform: translate(-250px);
-  -webkit-transform: translate(-250px); }
+  transform: translate(-140px);
+  -webkit-transform: translate(-140px); }
 
 .sticky-navigation:hover {
-  transform: translate(-250px);
-  -webkit-transform: translate(-250px); }
+  transform: translate(-140px);
+  -webkit-transform: translate(-140px); }
 
 .sticky-navigation:hover ul {
   text-align: right; }

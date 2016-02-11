@@ -221,10 +221,13 @@ body#star-03 #section-07 {
   background-clip: content-box;
   box-sizing: border-box; }
 
+#section-05.main-container {
+  padding-bottom: 0px; }
+
 div.full-screen {
   margin-bottom: 30px; }
 
-div#section-07, div#section-09, div#section-02 div.full-screen {
+div#section-05, div#section-07, div#section-09, div#section-02 div.full-screen {
   margin-bottom: 0; }
 
 /*Ausnahmen von der Regel */
@@ -314,7 +317,7 @@ aside.left article section {
 article.portrait, .center {
   text-align: center; }
 
-aside.portrait header, article.portrait header, article.interview header {
+aside.portrait header, article.portrait header, article.interview header, article.scrollTextOnSticky header {
   padding-bottom: 40px;
   border-bottom: 3px solid black;
   border-bottom-style: double;
@@ -323,11 +326,6 @@ aside.portrait header, article.portrait header, article.interview header {
 aside.portrait article.social-links header {
   padding: 0;
   border: 0; }
-
-article.scrollTextOnSticky header {
-  padding-bottom: 30px;
-  text-align: center;
-  font-weight: normal; }
 
 depreciated.article.portrait section {
   padding-top: 40px;

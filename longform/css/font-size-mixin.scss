@@ -52,12 +52,12 @@ h2.main-page {font-family:$theSerifSemiBold;font-size:$mainFontSize*3.5;line-hei
 article.interview h1 {font-family:$theSerifPlainItalic;font-size:$mainFontSize*3.4;line-height: $mainFontSize*4.4;color:black;text-shadow:none;}
 div.impressum-overlay-container h1 {font-family:$TheSerifSemiboldItalic;font-size:$mainFontSize*3.6;line-height: $mainFontSize*4;text-align:center;}
 .homepage-first-content-slider div.caption, .ssd-slider section, .homepage-fullscreen-slider div.caption {font-family:$theSerifPlain;font-size: $mainFontSize*1.8;line-height: $mainFontSize*2.2;}
+.homepage-first-content-slider div.caption {font-size: $mainFontSize*1.5;}
 div.text-scroll-down {font-family:$theSansPlain;font-size:$mainFontSize*1.8;line-height:$mainFontSize*2.4;color: white;}
 article.interview, article.scrollTextOnSticky {font-family:$theSerifPlain;font-size: $mainFontSize*2;line-height: $mainFontSize*3;}
 aside.interview.left header.small-screen-only {font-family:$theSerifPlain;;font-size:$mainFontSize*2.6;line-height:$mainFontSize*2.8;color: #015;}
 .movie-still footer {font-family:$theSerifPlain;font-size:$mainFontSize*1.8;line-height:$mainFontSize*2.2;color: #666;}
 section.question {font-family:$theSerifSemiBold;color: #015;}
-article.scrollTextOnSticky header {color: #015;}
 article.portrait {font-family:$theSerifPlain;font-size:$mainFontSize*2;line-height: $mainFontSize*3;}
 article.portrait strong, article.portrait b {font-family:$theSansPlain;}
 aside.portrait header, article.portrait header, article.scrollTextOnSticky header, article.interview header {font-family:$theSerifPlain;font-size: $mainFontSize*3;line-height:$mainFontSize*3.6;}
@@ -97,6 +97,7 @@ div.impressum-overlay-container h1 {text-align:left;}
 article.interview, article.portrait, article.scrollTextOnSticky  {font-size: $mainFontSize*2;line-height: $mainFontSize*3;}
 article.portrait header, article.scrollTextOnSticky header, , article.interview header {font-size: $mainFontSize*3.6;line-height:$mainFontSize*4;}
 .homepage-fullscreen-slider div.slick-slide div.caption {font-size: $mainFontSize*3.6;line-height: $mainFontSize*4.8;}
+.homepage-first-content-slider div.caption {font-size: $mainFontSize*2.2;}
 .overlay-link {font-size: $mainFontSize*2.2;}
 .impressum-overlay-content {font-family:$theSansPlain;font-size: $mainFontSize*1.8;line-height:$mainFontSize*3.2;}
 

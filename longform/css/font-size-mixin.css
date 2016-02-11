@@ -92,6 +92,9 @@
     font-size: 18px;
     line-height: 22px; }
 
+  .homepage-first-content-slider div.caption {
+    font-size: 15px; }
+
   div.text-scroll-down {
     font-family: TheSansPlain;
     font-size: 18px;
@@ -117,9 +120,6 @@
 
   section.question {
     font-family: TheSerifB6-Semi-Bold;
-    color: #015; }
-
-  article.scrollTextOnSticky header {
     color: #015; }
 
   article.portrait {
@@ -206,6 +206,9 @@
   .homepage-fullscreen-slider div.slick-slide div.caption {
     font-size: 36px;
     line-height: 48px; }
+
+  .homepage-first-content-slider div.caption {
+    font-size: 22px; }
 
   .overlay-link {
     font-size: 22px; }
