@@ -8,9 +8,9 @@ var glBgFixed;
 var glBgBottom;
 var glSsdSlider = false;
 var glIsSsd = false;
-var winWidth;
-var winHeight;
-var winHalfHeight;
+var winWidth = 0;
+var winHeight = 0;
+var winHalfHeight = 0;
 
 
 
