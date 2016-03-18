@@ -110,7 +110,7 @@ nav.sticky-navigation {}
 
 #section-07 {background-position:center;}
 #section-10 {background-color: #d6d6d6;padding-bottom:30px;}
-#section-11 {background-color: #000;}
+#section-11 {background-color: #000;display:none;}
 #section-12 {background-color: #d6d6d6;padding-bottom:30px;}
 
 /* Main Background Images  */
@@ -240,6 +240,7 @@ article.social-links section a {display:block;float:left;margin-right:4px;border
 .overlay-link.close-overlay {z-index:inherit;}
 .footer-container footer a {display:block;width:100%;}
 div.weitere-stars a {color:white;}
+.overlay-link.open-overlay {display:none;}
 
 
 
