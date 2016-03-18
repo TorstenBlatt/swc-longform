@@ -121,7 +121,7 @@ div.text-on-image {margin-top:5%;}
 /* Slider */
 .overlay-slider {padding-bottom:0px;}
 .homepage-first-content-slider div.slick-slide, .homepage-fullscreen-slider .slick-slide {position:relative; }
-.homepage-first-content-slider div.slick-slide div.caption {position:absolute;box-sizing:border-box;left:auto;bottom:6px;z-index:3;padding-right:20px;width:100%;height:80px;background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%);background-position:6px bottom;background-repeat:no-repeat;}
+.homepage-first-content-slider div.slick-slide div.caption {position:absolute;box-sizing:border-box;left:auto;bottom:6px;z-index:3;padding-right:20px;width:100%;height:auto;background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%);background-position:6px bottom;background-repeat:no-repeat;}
 .homepage-first-content-slider div.slick-track {background-color:white; }
 .homepage-first-content-slider div.slick-slide div.caption span {display:block;float:right;width:40px;height:40px; }
 .homepage-first-content-slider div.slick-track, .homepage-fullscreen-slider .slick-track {padding:0px; }

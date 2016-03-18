@@ -177,7 +177,7 @@ function K7InitScroll()
 										
 						// Show and hide Sticky Navigation with class toggle //
 
-						new ScrollMagic.Scene({triggerElement: "#section-01", triggerHook: 'onLeave', duration:'300'})
+						new ScrollMagic.Scene({triggerElement: "#section-02", triggerHook: 'onLeave', duration:'300'})
 										.setClassToggle(".sticky-navigation", "nav-in") // add class toggle
 										//.addIndicators() // add indicators (requires plugin)
 										.addTo(controller);
@@ -195,7 +195,7 @@ function K7InitScroll()
 										.addTo(controller);
 										
 						// Set active on scroll - did not work with multiple toggle so i mad enew scene				
-						new ScrollMagic.Scene({triggerElement: "#section-01", triggerHook: 'onLeave', duration:'300'})
+						new ScrollMagic.Scene({triggerElement: "#section-02", triggerHook: 'onLeave', duration:'300'})
 										.setClassToggle("a.sticky-menu-link-01", "active-link") 
 										.addTo(controller);
 	

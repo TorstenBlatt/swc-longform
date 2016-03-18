@@ -160,7 +160,8 @@ div.impressum-overlay-container {
   padding-bottom: 30px; }
 
 #section-11 {
-  background-color: #000; }
+  background-color: #000;
+  display: none; }
 
 #section-12 {
   background-color: #d6d6d6;
@@ -478,6 +479,9 @@ article.social-links section a {
 
 div.weitere-stars a {
   color: white; }
+
+.overlay-link.open-overlay {
+  display: none; }
 
 /*  IMGs */
 aside.interview img {
