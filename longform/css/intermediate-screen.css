@@ -1,4 +1,4 @@
-﻿/* BG Effect intermediate and bigger only */
+/* BG Effect intermediate and bigger only */
 body#star-01 #section-01 {background-image:url('../images-star-01/star-pic-main-01.jpg');}
 body#star-01 #section-02 .sticky-bg-container {background-image: url("../images-star-01/star-pic-main-02.jpg");}
 body#star-01 #section-04 .sticky-bg-container {background-image: url("../images-star-01/star-pic-main-03.jpg");}
@@ -72,11 +72,11 @@ nav.sticky-navigation {right:-140px;top:50%;width:auto;z-index:3;position:fixed;
 nav.sticky-navigation ul {text-align:left;list-style-type:none;box-sizing:border-box;}
 nav.sticky-navigation.nav-in ul {text-align:right;}
 nav.sticky-navigation.text-align ul {text-align:right;}
-nav.sticky-navigation ul li {margin:0px;border:0px;line-height:40px;}
+nav.sticky-navigation ul li {margin:0px;border:0px;line-height:47px;}
 nav.sticky-navigation ul li a {background-color: #e8e8e8;}
 nav.sticky-navigation ul li a.active-link {background-color: #945150;color:white;}
 nav.sticky-navigation ul li a, 
-nav.sticky-navigation ul li a:visited {text-decoration:none;width:auto;box-sizing:content-box;padding:5px 20px 5px 23px;color:#111111;text-shadow: 0 3px 12px rgba(0, 0, 0, 0.5);}
+nav.sticky-navigation ul li a:visited {text-decoration:none;width:auto;box-sizing:content-box;padding:8px 25px 8px 33px;color:#111111;text-shadow: 0px 0px 0px rgba(0, 0, 0, 0.5);}
 nav.sticky-navigation ul li a:hover {text-decoration:underline;}
 
 
@@ -146,7 +146,7 @@ article.interview h1 {padding:0 50px; }
 
 /*  IMGs */
 article img, section img {}
-img.image-portrait {width:100%;height:auto; }
+img.image-portrait {width:50%;height:auto; }
 aside.interview.right img {min-width:300px; }
 
 
