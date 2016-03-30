@@ -1,4 +1,4 @@
-f@charset "UTF-8";
+@charset "UTF-8";
 .txt-std-big {
   font-family: TheSerifB6-Semi-Bold, Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
   font-size: 1.2em;
@@ -594,7 +594,7 @@ aside.interview img {
   height: auto; }
 
 img.image-portrait {
-  width: 50%;
+  width: 90%;
   height: auto; }
 
 /* Helper  */
