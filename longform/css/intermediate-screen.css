@@ -70,8 +70,8 @@ body#star-10 #section-07 {background-image:url('../images-star-10/star-pic-main-
 
 
 div.footer-container footer div {width:50%;float:left; }
-div.footer-container footer div.left {text-align:left; }
-div.footer-container footer div.right {text-align:right; }
+div.footer-container footer div.left {text-align:left; font-family: TheSansPlain; font-size: 18px; color: #666;}
+div.footer-container footer div.right {text-align:right; font-family: TheSansPlain; font-size: 18px; color: #666;}
 
 
 div.full-screen {margin-bottom:0;}
