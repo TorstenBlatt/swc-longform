@@ -145,6 +145,9 @@ div.impressum-overlay-container {
 /*  Sticky Navigation */
 
 header nav ul li a {font-family:TheSansPlain;color:#2d90ec;border-bottom:3px solid white;}
+header nav ul li a.active-link {border-bottom-color:#2d90ec;}
+header nav ul li a.inactive-link {border-bottom-color:#ffffff;}
+
 #cssmenu > ul li a {text-align:center;}
 
 
