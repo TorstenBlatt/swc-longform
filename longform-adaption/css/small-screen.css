@@ -137,6 +137,11 @@ div.impressum-overlay-container {
   padding: 10px 20px; }
 
 /*  Sticky Navigation */
+
+header nav ul li a {font-family:TheSansPlain;color:#2d90ec;border-bottom:3px solid white;}
+#cssmenu > ul li a {text-align:center;}
+
+
 /* Detail  */
 #section-02 .sticky-bg-container {
   background-repeat: no-repeat;
@@ -214,109 +219,109 @@ body#star-03 #section-07 {
   background-image: url("../images-star-03/star-pic-main-06-ssd.jpg"); }
 
 body#star-04 #section-01 {
-  background-image: url("../images-star-04/star-pic-main-01-ssd.jpg"); }
+  background-image: url("http://bluewin-longform.s3.eu-central-1.amazonaws.com/longform/images-star-04/star-pic-main-01-ssd.jpg"); }
 
 body#star-04 #section-02 .sticky-bg-container {
-  background-image: url("../images-star-04/star-pic-main-02-ssd.jpg"); }
+  background-image: url("http://bluewin-longform.s3.eu-central-1.amazonaws.com/longform/images-star-04/star-pic-main-02-ssd.jpg"); }
 
 body#star-04 #section-04 .sticky-bg-container {
-  background-image: url("../images-star-04/star-pic-main-03-ssd.jpg"); }
+  background-image: url("http://bluewin-longform.s3.eu-central-1.amazonaws.com/longform/images-star-04/star-pic-main-03-ssd.jpg"); }
 
 body#star-04 #section-05 {
-  background-image: url("../images-star-04/star-pic-main-04-ssd.jpg"); }
+  background-image: url("http://bluewin-longform.s3.eu-central-1.amazonaws.com/longform/images-star-04/star-pic-main-04-ssd.jpg"); }
 
 body#star-04 #section-07 {
-  background-image: url("../images-star-04/star-pic-main-06-ssd.jpg"); }
+  background-image: url("http://bluewin-longform.s3.eu-central-1.amazonaws.com/longform/images-star-04/star-pic-main-06-ssd.jpg"); }
 
 body#star-05 #section-01 {
-  background-image: url("../images-star-05/star-pic-main-01-ssd.jpg"); }
+  background-image: url("http://bluewin-longform.s3.eu-central-1.amazonaws.com/longform/images-star-05/star-pic-main-01-ssd.jpg"); }
 
 body#star-05 #section-02 .sticky-bg-container {
-  background-image: url("../images-star-05/star-pic-main-02-ssd.jpg"); }
+  background-image: url("http://bluewin-longform.s3.eu-central-1.amazonaws.com/longform/images-star-05/star-pic-main-02-ssd.jpg"); }
 
 body#star-05 #section-04 .sticky-bg-container {
-  background-image: url("../images-star-05/star-pic-main-03-ssd.jpg"); }
+  background-image: url("http://bluewin-longform.s3.eu-central-1.amazonaws.com/longform/images-star-05/star-pic-main-03-ssd.jpg"); }
 
 body#star-05 #section-05 {
-  background-image: url("../images-star-05/star-pic-main-04-ssd.jpg"); }
+  background-image: url("http://bluewin-longform.s3.eu-central-1.amazonaws.com/longform/images-star-05/star-pic-main-04-ssd.jpg"); }
 
 body#star-05 #section-07 {
-  background-image: url("../images-star-05/star-pic-main-06-ssd.jpg"); }
+  background-image: url("http://bluewin-longform.s3.eu-central-1.amazonaws.com/longform/images-star-05/star-pic-main-06-ssd.jpg"); }
 
 body#star-06 #section-01 {
-  background-image: url("../images-star-06/star-pic-main-01-ssd.jpg"); }
+  background-image: url("http://bluewin-longform.s3.eu-central-1.amazonaws.com/longform/images-star-06/star-pic-main-01-ssd.jpg"); }
 
 body#star-06 #section-02 .sticky-bg-container {
-  background-image: url("../images-star-06/star-pic-main-02-ssd.jpg"); }
+  background-image: url("http://bluewin-longform.s3.eu-central-1.amazonaws.com/longform/images-star-06/star-pic-main-02-ssd.jpg"); }
 
 body#star-06 #section-04 .sticky-bg-container {
-  background-image: url("../images-star-06/star-pic-main-03-ssd.jpg"); }
+  background-image: url("http://bluewin-longform.s3.eu-central-1.amazonaws.com/longform/images-star-06/star-pic-main-03-ssd.jpg"); }
 
 body#star-06 #section-05 {
-  background-image: url("../images-star-06/star-pic-main-04-ssd.jpg"); }
+  background-image: url("http://bluewin-longform.s3.eu-central-1.amazonaws.com/longform/images-star-06/star-pic-main-04-ssd.jpg"); }
 
 body#star-06 #section-07 {
-  background-image: url("../images-star-06/star-pic-main-06-ssd.jpg"); }
+  background-image: url("http://bluewin-longform.s3.eu-central-1.amazonaws.com/longform/images-star-06/star-pic-main-06-ssd.jpg"); }
 
 body#star-07 #section-01 {
-  background-image: url("../images-star-07/star-pic-main-01-ssd.jpg"); }
+  background-image: url("http://bluewin-longform.s3.eu-central-1.amazonaws.com/longform/images-star-07/star-pic-main-01-ssd.jpg"); }
 
 body#star-07 #section-02 .sticky-bg-container {
-  background-image: url("../images-star-07/star-pic-main-02-ssd.jpg"); }
+  background-image: url("http://bluewin-longform.s3.eu-central-1.amazonaws.com/longform/images-star-07/star-pic-main-02-ssd.jpg"); }
 
 body#star-07 #section-04 .sticky-bg-container {
-  background-image: url("../images-star-07/star-pic-main-03-ssd.jpg"); }
+  background-image: url("http://bluewin-longform.s3.eu-central-1.amazonaws.com/longform/images-star-07/star-pic-main-03-ssd.jpg"); }
 
 body#star-07 #section-05 {
-  background-image: url("../images-star-07/star-pic-main-04-ssd.jpg"); }
+  background-image: url("http://bluewin-longform.s3.eu-central-1.amazonaws.com/longform/images-star-07/star-pic-main-04-ssd.jpg"); }
 
 body#star-07 #section-07 {
-  background-image: url("../images-star-07/star-pic-main-06-ssd.jpg"); }
+  background-image: url("http://bluewin-longform.s3.eu-central-1.amazonaws.com/longform/images-star-07/star-pic-main-06-ssd.jpg"); }
 
 body#star-08 #section-01 {
-  background-image: url("../images-star-08/star-pic-main-01-ssd.jpg"); }
+  background-image: url("http://bluewin-longform.s3.eu-central-1.amazonaws.com/longform/images-star-08/star-pic-main-01-ssd.jpg"); }
 
 body#star-08 #section-02 .sticky-bg-container {
-  background-image: url("../images-star-08/star-pic-main-02-ssd.jpg"); }
+  background-image: url("http://bluewin-longform.s3.eu-central-1.amazonaws.com/longform/images-star-08/star-pic-main-02-ssd.jpg"); }
 
 body#star-08 #section-04 .sticky-bg-container {
-  background-image: url("../images-star-08/star-pic-main-03-ssd.jpg"); }
+  background-image: url("http://bluewin-longform.s3.eu-central-1.amazonaws.com/longform/images-star-08/star-pic-main-03-ssd.jpg"); }
 
 body#star-08 #section-05 {
-  background-image: url("../images-star-08/star-pic-main-04-ssd.jpg"); }
+  background-image: url("http://bluewin-longform.s3.eu-central-1.amazonaws.com/longform/images-star-08/star-pic-main-04-ssd.jpg"); }
 
 body#star-08 #section-07 {
-  background-image: url("../images-star-08/star-pic-main-06-ssd.jpg"); }
+  background-image: url("http://bluewin-longform.s3.eu-central-1.amazonaws.com/longform/images-star-08/star-pic-main-06-ssd.jpg"); }
 
 body#star-09 #section-01 {
-  background-image: url("../images-star-09/star-pic-main-01-ssd.jpg"); }
+  background-image: url("http://bluewin-longform.s3.eu-central-1.amazonaws.com/longform/images-star-09/star-pic-main-01-ssd.jpg"); }
 
 body#star-09 #section-02 .sticky-bg-container {
-  background-image: url("../images-star-09/star-pic-main-02-ssd.jpg"); }
+  background-image: url("http://bluewin-longform.s3.eu-central-1.amazonaws.com/longform/images-star-09/star-pic-main-02-ssd.jpg"); }
 
 body#star-09 #section-04 .sticky-bg-container {
-  background-image: url("../images-star-09/star-pic-main-03-ssd.jpg"); }
+  background-image: url("http://bluewin-longform.s3.eu-central-1.amazonaws.com/longform/images-star-09/star-pic-main-03-ssd.jpg"); }
 
 body#star-09 #section-05 {
-  background-image: url("../images-star-09/star-pic-main-04-ssd.jpg"); }
+  background-image: url("http://bluewin-longform.s3.eu-central-1.amazonaws.com/longform/images-star-09/star-pic-main-04-ssd.jpg"); }
 
 body#star-09 #section-07 {
-  background-image: url("../images-star-09/star-pic-main-06-ssd.jpg"); }
+  background-image: url("http://bluewin-longform.s3.eu-central-1.amazonaws.com/longform/images-star-09/star-pic-main-06-ssd.jpg"); }
 
 body#star-09 #section-01 {
-  background-image: url("../images-star-09/star-pic-main-01-ssd.jpg"); }
+  background-image: url("http://bluewin-longform.s3.eu-central-1.amazonaws.com/longform/images-star-09/star-pic-main-01-ssd.jpg"); }
 
 body#star-09 #section-02 .sticky-bg-container {
-  background-image: url("../images-star-09/star-pic-main-02-ssd.jpg"); }
+  background-image: url("http://bluewin-longform.s3.eu-central-1.amazonaws.com/longform/images-star-09/star-pic-main-02-ssd.jpg"); }
 
 body#star-09 #section-04 .sticky-bg-container {
-  background-image: url("../images-star-09/star-pic-main-03-ssd.jpg"); }
+  background-image: url("http://bluewin-longform.s3.eu-central-1.amazonaws.com/longform/images-star-09/star-pic-main-03-ssd.jpg"); }
 
 body#star-09 #section-05 {
-  background-image: url("../images-star-09/star-pic-main-04-ssd.jpg"); }
+  background-image: url("http://bluewin-longform.s3.eu-central-1.amazonaws.com/longform/images-star-09/star-pic-main-04-ssd.jpg"); }
 
 body#star-09 #section-07 {
-  background-image: url("../images-star-09/star-pic-main-06-ssd.jpg"); }
+  background-image: url("http://bluewin-longform.s3.eu-central-1.amazonaws.com/longform/images-star-09/star-pic-main-06-ssd.jpg"); }
 
 /* Show Pictures in mobile */
 #section-02 .sticky-bg-container,
@@ -494,7 +499,6 @@ div.wrapper.impressum-overlay-container {
 
 /* */
 .homepage-first-content-slider .slick-slide img {
-  width: 100%;
   height: auto;
   vertical-align: middle; }
 
