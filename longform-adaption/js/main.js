@@ -44,8 +44,8 @@ else
 	$('aside.interview.left').css({'top':'0px'});
 	glIsSsd = "true";
 	K7SlickSSD();
-	topHeight = 59;
-	K7InitScroll();
+	//topHeight = 59;
+	//K7InitScroll();
 	};
 
 if(winHalfHeight<=400){winHalfHeight=400};
