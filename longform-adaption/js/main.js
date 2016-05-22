@@ -11,6 +11,7 @@ var glIsSsd = false;
 var winWidth = 0;
 var winHeight = 0;
 var winHalfHeight = 0;
+var topHeight = 70;
 
 
 
@@ -43,6 +44,7 @@ else
 	$('aside.interview.left').css({'top':'0px'});
 	glIsSsd = "true";
 	K7SlickSSD();
+	topHeight = 59;
 	K7InitScroll();
 	};
 
@@ -246,7 +248,7 @@ function K7InitScroll()
 
 						// change behaviour of controller to animate scroll instead of jump
 						controller.scrollTo(function (newpos) {
-							TweenMax.to(window, 2, {scrollTo: {y: newpos-70}});
+							TweenMax.to(window, 2, {scrollTo: {y: newpos-topHeight}});
 						});
 
 						//  bind scroll to anchor links
