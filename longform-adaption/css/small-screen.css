@@ -67,8 +67,8 @@ body {
 
 img.logo {width:30px;height:auto;border:0;float:left;margin-left:10px;}
 div#section-01 {margin-top:59px;}
-div#section-00 {border-bottom:1px solid #bbb;position:fixed;opacity:0.975;background-color:white;z-index:10; }
-div#section-00 > header {position:relative;padding:9px 0; } 
+div#section-00 {position:fixed;opacity:0.975;background-color:white;z-index:10;border-bottom:1px solid #bbb;}
+div#section-00 > header {position:relative;padding:9px 0;}
 
 body.no-scrolling {
   overflow: hidden; }
@@ -147,7 +147,6 @@ div.impressum-overlay-container {
 /*  Sticky Navigation */
 
 header nav ul li a {font-family:TheSansPlain;color:#000;border-bottom:3px solid white;}
-header nav ul li a span {color:#bbb;}
 header nav ul li a.active-link {border-bottom-color:#2d90ec;color:#2d90ec;}
 header nav ul li a.inactive-link {border-bottom-color:#ffffff;color:#000;}
 
