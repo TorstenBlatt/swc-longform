@@ -119,8 +119,8 @@ div.text-scroll-down {width: auto;height: auto;left:15px;padding-bottom:6%;}
 /* New sticky top navigation   mai 2016 tb */
 
 header nav ul li a {border-bottom:3px solid white;}
-header nav ul li a.active-link {border-bottom-color:#2d90ec;}
-header nav ul li a.inactive-link {border-bottom-color:#ffffff;}
+header nav ul li a.active-link {border-bottom-color:#2d90ec;color:#2d90ec;}
+header nav ul li a.inactive-link {border-bottom-color:#ffffff;color:#000;}
 header nav#cssmenu {float:right;}
 
 /* Sticky Text */

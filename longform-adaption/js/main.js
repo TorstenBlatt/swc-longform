@@ -11,7 +11,7 @@ var glIsSsd = false;
 var winWidth = 0;
 var winHeight = 0;
 var winHalfHeight = 0;
-var topHeight = 70;
+var topHeight = 66;
 
 
 
