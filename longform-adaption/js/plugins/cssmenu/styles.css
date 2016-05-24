@@ -77,8 +77,8 @@
     display: block;
   }
   #cssmenu > ul li#responsive-tab a {
-    background: url('images/menu.png') no-repeat;
-    background-position: 95% -35%;
+    /* background: url('images/menu.png') no-repeat;
+    background-position: 95% -35%;*/
   }
   #cssmenu > ul li#responsive-tab a:hover {
     
