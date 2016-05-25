@@ -99,12 +99,13 @@
     font-family: TheSansPlain;
     font-size: 18px;
     line-height: 24px;
+    text-shadow: 0px 0px 8px rgba(0, 0, 0, 6);
     color: white; }
 
   article.interview, article.scrollTextOnSticky {
     font-family: TheSerifPlain;
-    font-size: 20px;
-    line-height: 30px; }
+    font-size: 10px;
+    line-height: 20px; }
 
   aside.interview.left header.small-screen-only {
     font-family: TheSerifPlain;
@@ -190,7 +191,7 @@
 
   h2.main-page {
     font-size: 85px;
-    line-height: 50px; }
+    line-height: 80px; }
 
   div.impressum-overlay-container h1 {
     text-align: left; }
