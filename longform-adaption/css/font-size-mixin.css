@@ -104,8 +104,8 @@
 
   article.interview, article.scrollTextOnSticky {
     font-family: TheSerifPlain;
-    font-size: 10px;
-    line-height: 20px; }
+    font-size: 18px;
+    line-height: 26px; }
 
   aside.interview.left header.small-screen-only {
     font-family: TheSerifPlain;
@@ -125,7 +125,7 @@
 
   article.portrait {
     font-family: TheSerifPlain;
-    font-size: 20px;
+    font-size: 18px;
     line-height: 30px; }
 
   article.portrait strong, article.portrait b {
