@@ -196,12 +196,12 @@ function K7InitScroll()
 										.setClassToggle("#section-02-link", "inactive-link") 
 										// add indicators (requires plugin).addIndicators() 
 										.addTo(controller);
-						new ScrollMagic.Scene({triggerElement: "#section-05", triggerHook: 'onCenter'})
-										.setClassToggle("#section-05-link", "active-link") 
+						new ScrollMagic.Scene({triggerElement: "#section-06", triggerHook: 'onCenter'})
+										.setClassToggle("#section-06-link", "active-link") 
 										// add indicators (requires plugin).addIndicators() 
 										.addTo(controller);										
 						new ScrollMagic.Scene({triggerElement: "#section-07", triggerHook: 'onCenter'})
-										.setClassToggle("#section-05-link", "inactive-link") 
+										.setClassToggle("#section-06-link", "inactive-link") 
 										// add indicators (requires plugin) .addIndicators() 
 										.addTo(controller);
 						new ScrollMagic.Scene({triggerElement: "#section-10", triggerHook: 'onCenter'})
