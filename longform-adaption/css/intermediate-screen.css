@@ -1,4 +1,4 @@
-﻿/* BG Effect intermediate and bigger only */
+/* BG Effect intermediate and bigger only */
 body#star-01 #section-01 {background-image:url('../images-star-01/star-pic-main-01.jpg');}
 body#star-01 #section-02 .sticky-bg-container {background-image: url("../images-star-01/star-pic-main-02.jpg");}
 body#star-01 #section-04 .sticky-bg-container {background-image: url("../images-star-01/star-pic-main-03.jpg");}
@@ -152,14 +152,14 @@ aside.interview.left article:nth-of-type(even) {margin-top:100px; }
 aside.portrait header, article.portrait header, article.scrollTextOnSticky header {padding-bottom:60px;border-bottom:3px solid black;border-bottom-style:double;margin-bottom:20px;}
 */
 
-aside.portrait header, article.portrait header, article.scrollTextOnSticky header { border-bottom: 3px double black; margin-bottom: 20px; padding-bottom: 25px; padding-top: 20px;}
+aside.portrait header, article.portrait header, article.scrollTextOnSticky header { border-bottom: 0px double black; margin-bottom: 10px; padding-bottom: 10px; padding-top: 20px;}
 
-div.text-on-image {margin-top:5%;}
+div.text-on-image {margin-top:26%;}
 
 /* Slider */
 .overlay-slider {padding-bottom:0px;}
 .homepage-first-content-slider div.slick-slide, .homepage-fullscreen-slider .slick-slide {position:relative; }
-.homepage-first-content-slider div.slick-slide div.caption {position:absolute;box-sizing:border-box;left:auto;bottom:6px;z-index:3;padding-right:20px;width:100%;height:auto;background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%);background-position:6px bottom;background-repeat:no-repeat;}
+.homepage-first-content-slider div.slick-slide div.caption {position:absolute;box-sizing:border-box;left:auto;bottom:6px;z-index:3;padding-right:20px;width:100%;height:auto;background: linear-gradient(to bottom, rgba(0,0,0,0.7) 0%,rgba(0,0,0,0.7) 100%);background-position:6px bottom;background-repeat:no-repeat; line-height:1.3em}
 .homepage-first-content-slider div.slick-track {background-color:white; }
 .homepage-first-content-slider div.slick-slide div.caption span {display:block;float:right;width:40px;height:40px; }
 .homepage-first-content-slider div.slick-track, .homepage-fullscreen-slider .slick-track {padding:0px; }

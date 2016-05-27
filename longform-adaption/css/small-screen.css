@@ -20,7 +20,7 @@
 /*! HTML5 Boilerplate v5.0 | MIT License | http://h5bp.com/ */
 html {
   font-size: 1em;
-  line-height: 100%;
+  line-height: 150%;
   font-family: TheSerifPlain; }
 
 .browserupgrade {
@@ -33,9 +33,10 @@ html {
    Author: Jonathan Verrecchia - verekia.com/initializr/responsive-template
    ========================================================================== */
 body {
-  font-size: 1em;
+  font-size: 19px;
   margin: 0px;
-  padding: 0px; }
+  padding: 0px;
+  color: #015; }
 
 .wrapper {
   width: 100%;
@@ -143,7 +144,7 @@ article.interview,
 article.portrait.left,
 aside.interview.left,
 div.impressum-overlay-container {
-  padding: 10px 20px; }
+  padding: 20px 20px; }
 
 /*  Sticky Navigation */
 
@@ -173,7 +174,7 @@ header nav ul li a.inactive-link {color:#000;}
   background-position: center; }
 
 #section-10 {
-  background-color: #d6d6d6;
+  background-color: #fff;
   padding-bottom: 30px; }
 
 #section-11 {
@@ -181,7 +182,7 @@ header nav ul li a.inactive-link {color:#000;}
   display: none; }
 
 #section-12 {
-  background-color: #d6d6d6;
+  background-color: #fff;
   padding-bottom: 30px; }
 
 /* Main Background Images  */
@@ -340,7 +341,7 @@ body#star-09 #section-07 {
 #section-04 .sticky-bg-container,
 #section-05.main-container,
 #section-07 {
-  padding: 0 10px 30px 10px;
+  padding: 0 0px 30px 0px;
   background-clip: content-box;
   box-sizing: border-box; }
 
@@ -438,11 +439,11 @@ aside.left article section {
   color: #595959; }
 
 article.portrait, .center {
-  text-align: center; }
+  text-align: left; }
 
 aside.portrait header, article.portrait header, article.interview header, article.scrollTextOnSticky header {
-  padding-bottom: 40px;
-  border-bottom: 3px solid black;
+  padding-bottom: 10px;
+  border-bottom: 0px solid black;
   border-bottom-style: double;
   margin-bottom: 20px; }
 
@@ -520,7 +521,7 @@ div.wrapper.impressum-overlay-container {
 
 .homepage-first-content-slider .slick-track {
   background-color: black;
-  padding-top: 80px; }
+  padding-top: 0px; }
 
 .homepage-first-content-slider div.caption, .homepage-fullscreen-slider div.caption {
   color: white;
