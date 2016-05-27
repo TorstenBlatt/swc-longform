@@ -68,7 +68,7 @@ menuList.prepend('<li id="responsive-tab"><a href="#" style="color:#015;">Bluewi
     				  breakpoint: 768,
 				      settings: {
 				      arrows: false,
-				      slidesToShow: 3,
+				      slidesToShow: 2,
 				      slidesToScroll: 1,
 				      variableWidth: false,
 				      centerMode: false,

@@ -1,4 +1,4 @@
-/* Slider */
+﻿/* Slider */
 .slick-slider {
   position: relative;
   display: block;
@@ -52,12 +52,14 @@
   height: 100%;
   min-height: 1px;
   display: none; }
-  [dir="rtl"] .slick-slide {
+  [dir=rtl] .slick-slide {
     float: right; }
   .slick-slide img {
-    display: block; }
+    /* display: block;  ersetzt mit inline weil es Probleme mit der Positionierung der Caption gab  */
+    display:inline;}
   .slick-slide.slick-loading img {
-    display: none; }
+    display: none;
+    }
   .slick-slide.dragging img {
     pointer-events: none; }
   .slick-initialized .slick-slide {
